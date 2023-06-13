@@ -22,7 +22,6 @@
 }
 
 body {
-    /* padding: 0 10rem; */
     font-family: var(--ff-main);
 }
 
@@ -31,7 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10rem;
+    background-color: var(--clr-bg-light);
 }
 
 .header__logo {
@@ -63,7 +62,7 @@ body {
 
 /* Main styling */
 main {
-    padding: 6rem 10rem;
+    padding-bottom: 6rem;
 }
 
 .hero {
@@ -71,6 +70,7 @@ main {
     display: flex;
     justify-content: space-around;
     gap: 2rem;
+    padding-top: 6rem;
 }
 
 .hero__intro {
@@ -109,7 +109,8 @@ main {
     gap: var(--space-600);
     color: var(--clr-bg-lighter);
     background-color: var(--clr-dark);
-    padding: 3.625rem 10rem 2rem;
+    padding-top: 3.625rem;
+    padding-bottom: 2rem;
 }
 
 .footer a {
@@ -137,3 +138,8 @@ main {
 }
 
 /* End footer styling */
+/* Utility classes */
+.padding-inline {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
