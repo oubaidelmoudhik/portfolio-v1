@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display&display=swap');
+
+:root {
+    --bg-color-light: hsl(40, 100%, 99%);
+    --bg-color-lighter: hsl(0, 0%, 98%);
+    --border-color: hsla(0, 33%, 1%, 0.169);
+    --clr-orange: hsl(16, 84%, 55%);
+    --clr-dark: hsl(0, 18%, 10%);
+    --text-clr-faded: hsla(0, 18%, 10%, 0.678);
+    --ff-main: 'Montserrat', sans-serif;
+    --ff-secondary: 'Playfair Display', serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 600;
+}
