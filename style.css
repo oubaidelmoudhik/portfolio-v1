@@ -14,3 +14,25 @@
     --fw-semi-bold: 500;
     --fw-bold: 600;
 }
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 20%;
+}
+
+.header__logo img {
+    fill: var(--clr-orange);
+}
+
+.header__nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
