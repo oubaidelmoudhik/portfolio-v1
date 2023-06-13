@@ -62,6 +62,44 @@ body {
 /* End header styling */
 
 /* Main styling */
+main {
+    padding: 6rem 10rem;
+}
+
+.hero {
+    background-color: var(--clr-bg-light);
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.hero__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero__intro h1 {
+    font-size: 4.063rem;
+    font-weight: var(--fw-bold);
+}
+
+.hero__intro p {
+    font-size: 1.063rem;
+    line-height: 25.5px;
+    max-width: 40ch;
+}
+
+.hero__img {
+    width: 35%;
+}
+
+.hero__img img {
+    border-radius: 30px 5px 30px 5px;
+}
+
+
 /* End main styling */
 
 /* Footer styling */
