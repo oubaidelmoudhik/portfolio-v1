@@ -1,0 +1,6 @@
+@import url("./style.css");
+
+.about__hero {
+    background-color: var(--clr-bg-light);
+    padding-top: 2rem;
+}

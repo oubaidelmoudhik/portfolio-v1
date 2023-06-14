@@ -5,26 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Oubaid</title>
+    <link rel="stylesheet" href="about.css">
+    <title>Oubaid: About</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header padding-inline">
         <div class="header__logo">
             <img src="./images/logo-svg.svg" alt="Oubaid">
         </div>
         <nav class="header__nav">
             <ol class="header__nav__list" role="list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="./about.html">About</a></li>
                 <li><a href="./portfolio.html">Portfolio</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ol>
         </nav>
     </header>
-    <footer class="footer">
+    <main>
+        <div class="about__hero padding-inline padding-block">
+            <div class="about__title">
+                <h2>About me</h2>
+                <div>
+                    <hr class="hr-style">
+                </div>
+            </div>
+        </div>
+        <div class="padding-inline padding-block">
+            <div class="about__section grid-3-2">
+                <div class="about__content">
+                    <h3>Meet the Web Developer who Loves Creating User-Friendly Websites</h3>
+                    <hr class="hr-style">
+                    <p>
+                        Hey there, I’m a web developer who’s been at it for over 2 years now. I really dig making
+                        websites that are super easy
+                        to use and I get hyped learning about new tech in the field. I’m pretty handy with HTML, CSS,
+                        JS, React, Redux, jQuery,
+                        Sass, Python, Flask, Django, SQLite, and WordPress. Basically, if it’s web-related, I’m all
+                        about it!
+                    </p>
+                    <a class="btn" href="./contact.html">Contact Me</a>
+                </div>
+                <div class="about__image">
+                    <img class="img-radius" src="./images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash_CKbB67Bn.webp"
+                        alt="Computer turned on">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer padding-inline">
         <!-- <div class="footer__info"> -->
         <div class="footer__socials">
             <a href="https://github.com/theniceguywastaken"><i class="fa-brands fa-github"></i></a>
