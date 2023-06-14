@@ -67,9 +67,6 @@ main {
 
 .hero {
     background-color: var(--clr-bg-light);
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
     padding-top: 6rem;
 }
 
@@ -91,10 +88,6 @@ main {
     max-width: 40ch;
 }
 
-.hero__img {
-    width: 35%;
-}
-
 .about__title {
     text-align: center;
     font-size: 1.75rem;
@@ -102,9 +95,7 @@ main {
 }
 
 .about__section {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 6rem;
+    margin-top: var(--space-800);
 }
 
 .about__section h3 {
@@ -166,6 +157,12 @@ main {
 
 /* End footer styling */
 /* Utility classes */
+.grid-3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 6rem;
+}
+
 .padding-inline {
     padding-left: 10rem;
     padding-right: 10rem;
