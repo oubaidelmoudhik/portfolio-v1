@@ -13,6 +13,10 @@
     color: var(--clr-dark);
 }
 
+.services h3 {
+    font-size: 1.8rem;
+}
+
 .services__content {
     display: flex;
     flex-direction: column;

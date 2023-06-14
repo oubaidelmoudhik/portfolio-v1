@@ -1,0 +1,27 @@
+@import url("./style.css");
+
+.portfolio__hero {
+    background-color: var(--clr-bg-light);
+    padding-top: 2rem;
+}
+
+.portfolio__title {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: var(--fw-bold);
+}
+
+.gallery {
+    padding-top: unset;
+}
+
+.gallery__title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.gallery__container {
+    display: grid;
+    gap: var(--space-800);
+    grid-template-columns: repeat(3, 1fr);
+}
